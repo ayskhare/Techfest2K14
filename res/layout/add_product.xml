@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <include layout="@layout/actionbar_layout" />
+    <!-- Name Label -->
+    
+    
+    <!-- Input Name -->
+
+	<EditText
+	    android:id="@+id/eventName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:hint="Event Name..."
+	    android:singleLine="true" />
+	
+	<TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="College Name"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+
+	 <Spinner 
+        android:id="@+id/college_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+    />
+	
+	 <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Category"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+	
+	<!-- Description Label -->
+
+	 <Spinner 
+        android:id="@+id/event_category"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+    />
+	 
+    
+    <!-- Input Name -->
+	<EditText android:id="@+id/dateTime"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:hint="Date And Time..."/>/>
+	
+	
+    
+    <!-- Input Name -->
+	/>
+	
+	
+    
+    <!-- Input Name -->
+
+	<EditText
+	    android:id="@+id/fees"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:ems="10"
+	    android:hint="Fees..."
+	    android:singleLine="true" />
+
+	<EditText android:id="@+id/venue"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:hint="Venue..."/>
+	
+   
+    
+    
+    <!-- Input description -->
+	<EditText android:id="@+id/description" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:lines="4"
+	    android:gravity="top"
+	     android:hint="Description..."/>
+	
+	<!-- Button Create Product -->
+	<Button android:id="@+id/btnCreateProduct" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Create Event"/>
+	
+</LinearLayout>

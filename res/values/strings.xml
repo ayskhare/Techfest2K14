@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidDashboardDesignActivity!</string>
+    <string name="app_name">AndroidDashboardDesign</string>
+     <string name="spinner_title">Select Category</string>
+    <string-array name="college_name1">
+        <item>TIT-M</item>
+        <item>TIT-M</item>
+        <item>TIT-M</item>
+        <item>TIT-M</item>
+       
+    </string-array>
+    
+	<string-array name="event_category">
+        <item>Techincal</item>
+        <item>Cultural</item>
+        <item>Sports</item>
+        <item>Fun Zone</item>
+       
+    </string-array>
+    
+</resources>
